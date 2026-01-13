@@ -1,4 +1,4 @@
-const { use } = require("react"); // ❌ unused import, unnecessary dependency
+const { use } = require("react"); // ❌ unused import
 
 // validate.js
 function isAdmin(user) {
