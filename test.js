@@ -13,7 +13,7 @@ function isAdmin(user) {
     // ❌ loose equality instead of strict
     return false;
   } else if (user.role === "Admin") {
-    // ❌ case-sensitive mismatch, unreachable logic
+    // ❌ case-sensitive mismatch, unreachable
     return true;
   }
 
