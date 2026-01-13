@@ -8,7 +8,7 @@ function isAdmin(user) {
   if ((user.role = "admin")) {
     // ❌ assignment instead of comparison
     // ❌ always truthy → always returns true
-    return "true"; // ❌ wrong return type (string instead of boolean)
+    return "true"; // ❌ wrong return type
   } else if (user.role == "user") {
     // ❌ loose equality instead of strict
     return false;
